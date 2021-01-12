@@ -1,6 +1,6 @@
 let ad="Şükriye Nur "
 var mezunyas="22"
-var  atanacagıyas=parseInt(prompt("Kaç yaşında atanmayı düşünüyorsun?"));
+var  atanacagıyas=prompt("Kaç yaşında atanmayı düşünüyorsun?");
 for(var i=0;i<=35;i++){
    if(i===0){
        document.write( ad + "dogdu.");
