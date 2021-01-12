@@ -9,10 +9,13 @@ for(var i=0;i<=35;i++){
         document.write( ad + i +" yaşındasın Mezun oldun Haydi KPSS Kervanına :) " );
     }
      else if(i===atanacagıyas){
-        document.write(ad +" "+ atanacagıyas +" düşündüğün yaşta ATANDIN.");
+        document.write(ad +" "+ atanacagıyas +"yaşındasın ve düşündüğün yaşta ATANDIN.");
     }
     else if(i==35){
-        document.write(ad +" "+ i +"yaşındasın umarım atanmışsındır.");
+        document.write(ad +" "+ i +"yaşındasın mutlu musun? :)");
+    }
+    else if(i>=8){
+        document.write(ad +" "+ i + " yaşındasın Eğitim alıyorsun..");
     }
      else{
          document.write(ad +" "+ i + " yaşındasın.");
