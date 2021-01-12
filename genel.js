@@ -14,8 +14,8 @@ for(var i=0;i<=35;i++){
     else if(i==35){
         document.write(ad +" "+ i +"yaşındasın mutlu musun? :)");
     }
-    else if(i>=8){
-        document.write(ad +" "+ i + " yaşındasın Eğitim alıyorsun..");
+    else if(i>=atanacagıyas){
+        document.write(ad +" "+ i + " yaşındasın stres bitti.");
     }
   
      else{
